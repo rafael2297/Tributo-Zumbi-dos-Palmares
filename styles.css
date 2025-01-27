@@ -1,0 +1,105 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+}
+
+#main {
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: #eee;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px grey;
+}
+
+main {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+@media (max-width: 460px) {
+    #main {
+        margin: 1;
+    }
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
+
+h2 {
+    font-size: 3.25rem;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+#img-div {
+    padding: 10px;
+    border-radius: 3px;
+    background: white;
+    max-width: 300px;
+    margin: 0 auto;
+    box-shadow: 2px 5px 5px gray;
+}
+
+@media (max-width: 460px) {
+    #img-div {
+        min-width: 200px;
+    }
+}
+
+#img-caption {
+    margin: 15px 0 5px;
+
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+    }
+}
+
+ul {
+    text-align: left;
+    margin: 0 auto 40px;
+    padding: 0;
+}
+
+#tribute-tempo {
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+#tribute-info {
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+a {
+    color: #477ca7;
+}
+
+a:visited {
+    color: #74638f;
+}
